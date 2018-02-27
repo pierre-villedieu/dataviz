@@ -119,37 +119,67 @@
         <hr>
     </section>
 
-    <section>
-      <h2>Transform your data</h2>
-      <h3>CSV >> JSON</h3>
-      <a href="http://www.convertcsv.com/csv-to-json.htm">Using convert csv to json online</a>
-      <div>
-        <textarea id="cacao-data-1" style="width:800px;height:200px;"></textarea>
-      </div>
-      <hr>
-      <h3>Modify the data using lodash</h3>
-      <div>
-        <textarea id="transformed-data-1" style="width:800px;height:100px;"></textarea>
-        <textarea id="transformed-data-2" style="width:800px;height:400px;"></textarea>
-      </div>
-      <hr>
-      <h3>Import data with Papa.parse</h3>
-      <div>
-        <textarea id="papa-data-1" style="width:800px;height:100px;"></textarea>
-      </div>
-    </section>
-    <!-- Librairies JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.7/papaparse.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
+<style>
+      #nvd3-chart svg {
+        height: 400px;
+      }
+</style>
 
-    <!-- Scripts custom
-      /!\ comme les scripts utilisent des librairies, il faut placer l'import du script custom APRES les librairies
-    -->
-    <script src="scripts.js"></script>
+<h3>NVD3</h3>
+        <div id="nvd3-chart"><svg></svg></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+        <script>
+          // NVD3 example
+          /**************************************
+           * Simple test data generator
+           */
+          var dataGen = function(groups, points) {
+            var data = [],
+                shapes = ['circle', 'cross', 'triangle-up', 'triangle-down', 'diamond', 'square'],
+                random = d3.random.normal();
+
+            for (i = 0; i < groups; i++) {
+              data.push({
+                key: 'Group ' + i,
+                values: []
+              });
+
+              for (j = 0; j < points; j++) {
+                data[i].values.push({
+                  x: random()
+                , y: random()
+                , size: Math.random()
+                //, shape: shapes[j % 6]
+                });
+              }
+            }
+
+            return data;
+          }
+
+          nv.addGraph(function() {
+            var chart = nv.models.scatterChart()
+                          .showDistX(true)
+                          .showDistY(true)
+                          .color(d3.scale.category10().range());
+
+            chart.xAxis.tickFormat(d3.format('.02f'));
+            chart.yAxis.tickFormat(d3.format('.02f'));
+
+            d3.select('#nvd3-chart svg')
+                .datum(dataGen(4,40))
+              .transition().duration(500)
+                .call(chart);
+
+            nv.utils.windowResize(chart.update);
+
+            return chart;
+          });
+        </script>
+        <hr>
+      </div>
   </body>
 </html>
