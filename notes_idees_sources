@@ -1,0 +1,45 @@
+******
+Notes 
+******
+
+pour modifier le repo GitHub a distance : dans le terminal
+----------------------------------------
+	1) on définit la cd - ex: cd ~/Documents/ENSAE/3A
+
+	2) on clone le repo en local : git clone <url du repo GitHub, cf. clone or download button>
+
+	3) on actualise le cd avec le nom du repo : cd ~/<reponame>
+
+
+	4) motifs 
+
+		a) pour des changements via la ligne de commande : 
+		    - renommer : git mv <old name> <new name>
+		    		 git commit -m "<message>" 
+				 git push origin master
+
+		    - supprimer : git rm <filename>
+  		    		  git commit -m "<message>" 
+				  git push origin master
+
+		b) pour des changements sur le dossier local 
+		    - changements : exemple ajouter un fichier, supprimer, renommer, modifications a l'intérieur d'un fichier ...
+		    - on ajoute ces modifs à la liste des commit potentiels : git add <fichiers concernés>
+		    - on commit et push comme précédemment 
+
+
+********
+Sources 
+********
+
+- le sujet : 
+  
+  - évasion fiscale 
+  - ...
+  
+- pour la page web : 
+
+  - https://getbootstrap.com/ : utiliser les templates et pas se faire chier à faire la page soit même 
+  démarrer pr des trucs très simples copier/coller
+
+
