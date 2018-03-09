@@ -11,7 +11,7 @@ pour modifier le repo GitHub a distance : dans le terminal
 	3) on actualise le cd avec le nom du repo : cd ~/<reponame>
 
 
-	4) motifs 
+	4) modifs 
 
 		a) pour des changements via la ligne de commande : 
 		    - renommer : git mv <old name> <new name>
@@ -49,7 +49,7 @@ Sujet
 		- comparaison des performances à l'eurovision avec le nb d'abonnés sur les réseaux sociaux
 	- petit sujet sur qui pourrait gagner cette année ? cf sites eurovision bookmakers 
 	- visu pour expliquer les règles du concours si nécessaire : quel pays sont qualif directement, les points par pays, ...
-	
+	- profil type du gagnant: femme 23 ans, 
 	
 	
   - sources : 
