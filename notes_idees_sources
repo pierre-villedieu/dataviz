@@ -28,18 +28,35 @@ pour modifier le repo GitHub a distance : dans le terminal
 		    - on commit et push comme précédemment 
 
 
-********
-Sources 
-********
+******
+Sujet 
+******
 
-- le sujet : 
+- le sujet : EUROVISION 
+========================
+
+  - histoire/idées : 
+  ------------------
   
-  - évasion fiscale 
-  - ...
+  	- bloc sur qui gagne à l'eurovision ? :
+		- homme Vs femme 
+		- groupes Vs solo 
+		- langues : prévalence de la langue anglaise ? -> visu sur la répartition des gagnants par langue 
+		- pays qui gagnent le plus, mise en relation avec des variables macros ? 
+		- focus sur la France 
+	- petit sujet sur qui pourrait gagner cette année ? cf sites eurovision bookmakers 
+	- visu pour expliquer les règles du concours si nécessaire : quel pays sont qualif directement, les points par pays, ...
+	
+	
+	
+  - sources : 
+  -----------
   
-- pour la page web : 
-
-  - https://getbootstrap.com/ : utiliser les templates et pas se faire chier à faire la page soit même 
-  démarrer pr des trucs très simples copier/coller
-
-
+  	idées : 
+	  	- projets de dataviz sur l'eurovision en pdf :  https://www.emi.coop/articlesept-projets-de-datavisualisation/
+		- https://public.tableau.com/en-us/s/gallery/eurovision-song-contest-voting-patterns
+	
+	données : 
+		- https://data.world/datagraver/eurovision-song-contest-scores
+		- wiki 
+		- 
