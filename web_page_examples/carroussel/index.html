@@ -335,7 +335,12 @@ Highcharts.chart('container1', {
         xAxis: {
           title: {
             text: 'Année'  // EDIT to insert horizontal x-axis label
-          }
+          }, 
+	plotBands: [{
+    color: 'orange', // Color value
+    from: 1991, // Start of the plot band
+    to: 2017 // End of the plot band
+  }]
         },
         yAxis: {
           title: {
