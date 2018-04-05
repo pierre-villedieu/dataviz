@@ -69,8 +69,7 @@
         plotOptions: {
             scatter: {
                 marker: {
-                    fillColor: null,
-                    radius: 5,
+                    radius: 1,
                     states: {
                         hover: {
                           enabled: true,
@@ -86,7 +85,7 @@
               point = this.point;
               // EDIT tooltip text labels below to match your data
               html = '<table>';
-              html += point.name ;
+              html += point.category ;
               html += '<tr><th>Année : </th><td>' + comma(point.x) + '</td></tr>';
               html += '<tr><th> Victoires :</th><td>' + point.y + '</td></tr>';
               html += '</table>';
