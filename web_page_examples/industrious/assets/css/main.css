@@ -524,6 +524,7 @@ select {
     color: #444444;
     background-color: #ffffff; }
 
+
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   color: #444444; }
