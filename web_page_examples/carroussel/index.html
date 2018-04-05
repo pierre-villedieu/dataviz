@@ -214,20 +214,25 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="./Carousel Template for Bootstrap_files/holder.min.js"></script>
   
-       <script type ="text/javascript">
+    <script type ="text/javascript">
 Highcharts.chart('container1', {
 
     title: {
-        text: 'Solar Employment Growth by Sector, 2010-2016'
+        text: 'Langue chantée par les gagnants de lEurovision'
     },
 
     subtitle: {
-        text: 'Source: thesolarfoundation.com'
+        text: ''
+    },
+    
+     credits: {
+        enabled: true,
+        text: 'ENSAE Dataviz (Source: Wikipedia)'
     },
 
     yAxis: {
         title: {
-            text: 'Number of Employees'
+            text: 'Victoires cumulées'
         }
     },
     legend: {
@@ -241,25 +246,22 @@ Highcharts.chart('container1', {
             label: {
                 connectorAllowed: false
             },
-            pointStart: 2010
+            pointStart: 1956
         }
     },
 
     series: [{
-        name: 'Installation',
-        data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+        name: 'Anglais',
+        color:'#fc9272',
+        data: [0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  2,  2,  2,  2,  3,  4,  5,  5,  5,  5,  6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8,  8,  9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 17, 18, 18, 19, 20, 20, 21, 22, 23, 24, 25, 26, 27, 28, 28, 28]
     }, {
-        name: 'Manufacturing',
-        data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+        name: 'Langue origine',
+        color:'#7fcdbb',
+        data: [1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16, 16, 16, 17, 18, 19, 19, 19, 20, 21, 22, 23, 24, 24, 25, 26, 27, 28, 28, 28, 28, 29, 29, 29, 30, 30, 30, 30, 30, 30, 30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32]
     }, {
-        name: 'Sales & Distribution',
-        data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-    }, {
-        name: 'Project Development',
-        data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
-    }, {
-        name: 'Other',
-        data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
+        name: 'Mixte',
+        color:'#ffeda0',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2]
     }],
 
     responsive: {
@@ -268,10 +270,10 @@ Highcharts.chart('container1', {
                 maxWidth: 500
             },
             chartOptions: {
-                legend: {
+        	legend: {
                     layout: 'horizontal',
                     align: 'center',
-                    verticalAlign: 'bottom'
+                    verticalAlign: 'bottom',
                 }
             }
         }]
