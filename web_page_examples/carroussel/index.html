@@ -69,7 +69,7 @@
         plotOptions: {
             scatter: {
                 marker: {
-                    radius: 5,
+                    radius: 3,
                     states: {
                         hover: {
                           enabled: true,
@@ -130,7 +130,7 @@
       'SampleCategory3': 'rgba(0, 0, 100, 0.3)', 
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].color = colors[data.series[i].name] ;
+      data.series[i].color = colors[data.series[i].category] ;
     }
   }
   // Customize markers of scatter series. Possible options are:
@@ -142,7 +142,7 @@
       'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].marker = {symbol: markers[data.series[i].name]};
+      data.series[i].marker = {symbol: markers[data.series[i].category]};
     }
   }
   // Returns a string that contains digits of val split by comma evey 3 positions
