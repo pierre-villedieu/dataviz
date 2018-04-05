@@ -46,7 +46,7 @@
         data: {
           csv: csv,
           // data column headers (x, y, name...) must match column numbers (0, 1, 2...). Optional: category: 3
-          seriesMapping: [{x: 0, y: 2, category:1, color:1}],
+          seriesMapping: [{x: 0, y: 2, category:1}],
           complete: function(data) {
             categoriesIntoSeries(data);
             changeSeriesColors(data);
@@ -86,7 +86,7 @@
               // EDIT tooltip text labels below to match your data
               html = '<table>';
               html += point.category ;
-              html += '<tr><th>Année : </th><td>' + comma(point.x) + '</td></tr>';
+              html += '<tr><th>Année : </th><td>' + point.category + '</td></tr>';
               html += '<tr><th> Victoires :</th><td>' + point.y + '</td></tr>';
               html += '</table>';
               return html;
