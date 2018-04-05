@@ -130,7 +130,7 @@
       'SampleCategory3': 'blue', 
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].color = colors[data.series[i].name] || 'rgba(51, 102, 255, 0.5)';
+      data.series[i].color = colors[data.series[i].name] ;
     }
   }
   // Customize markers of scatter series. Possible options are:
@@ -142,7 +142,7 @@
       'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].marker = {symbol: markers[data.series[i].name] || 'triangle'};
+      data.series[i].marker = {symbol: markers[data.series[i].name]};
     }
   }
   // Returns a string that contains digits of val split by comma evey 3 positions
