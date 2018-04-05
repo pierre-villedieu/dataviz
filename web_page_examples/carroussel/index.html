@@ -126,8 +126,8 @@
   function changeSeriesColors(data) {
     colors = {
       'SampleCategory1': 'rgba(100, 0, 0, 0.3)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-      'SampleCategory2': 'red', 
-      'SampleCategory3': 'blue', 
+      'SampleCategory2': 'rgba(0, 100, 0, 0.3)', 
+      'SampleCategory3': 'rgba(0, 0, 100, 0.3)', 
     }
     for (i = 0; i < data.series.length; i++) {
       data.series[i].color = colors[data.series[i].name] ;
@@ -142,7 +142,7 @@
       'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].marker = {symbol: markers[data.series[i].name]};
+      data.series[i].marker = {symbol: markers[data.series[i].name, color:null]};
     }
   }
   // Returns a string that contains digits of val split by comma evey 3 positions
