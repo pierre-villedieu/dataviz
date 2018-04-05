@@ -336,11 +336,16 @@ Highcharts.chart('container1', {
           title: {
             text: 'Année'  // EDIT to insert horizontal x-axis label
           }, 
-	plotBands: [{
-    color: 'orange', // Color value
-    from: 1991, // Start of the plot band
-    to: 2017 // End of the plot band
-  }]
+	  plotBands: [{
+    	    color: 'rgb(300,150,50,0.2)', // Color value
+    	    from: 1991, // Start of the plot band
+            to: 2017, // End of the plot band
+            label: { 
+    		text: "Triomphe de l'anglais", // Content of the label. 
+    		align: 'left', // Positioning of the label. 
+   	  	Default to center. x: +10 // Amount of pixels the label will be repositioned according to the alignment. 
+	    }
+	  }]
         },
         yAxis: {
           title: {
