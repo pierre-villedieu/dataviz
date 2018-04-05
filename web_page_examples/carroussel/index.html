@@ -69,6 +69,7 @@
         plotOptions: {
             scatter: {
                 marker: {
+                    color:null,
                     radius: 5,
                     states: {
                         hover: {
@@ -142,7 +143,7 @@
       'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].marker = {symbol: markers[data.series[i].name, color:null]};
+      data.series[i].marker = {symbol: markers[data.series[i].name]};
     }
   }
   // Returns a string that contains digits of val split by comma evey 3 positions
