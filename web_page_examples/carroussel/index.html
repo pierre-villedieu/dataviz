@@ -42,7 +42,7 @@
         data: {
           csv: csv,
           // data column headers (x, y, name...) must match column numbers (0, 1, 2...). Optional: category: 3
-          seriesMapping: [{x: 0, y: 2, category : 1, color : 1}],
+          seriesMapping: [{x: 0, y: 2, category : 1, colors : 1}],
           complete: function(data) {
             categoriesIntoSeries(data);
             changeSeriesColors(data);
