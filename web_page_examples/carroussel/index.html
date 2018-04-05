@@ -398,8 +398,8 @@ Highcharts.chart('container1', {
   function changeSeriesColors(data) {
     colors = {
       'Anglais': '#fc9272', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-      "Langue d'origine": '#ffeda0', 
-      'Mixte': '#7fcdbb'
+      "Langue d'origine": '#7fcdbb', 
+      'Mixte': '#ffeda0'
     }
     for (i = 0; i < data.series.length; i++) {
       data.series[i].color = colors[data.series[i].name] ;
