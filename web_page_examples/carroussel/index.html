@@ -311,13 +311,13 @@ Highcharts.chart('container1', {
         title: {
           text: "Langue chantée par les gagnants de l'Eurovision"
         },
-        //subtitle: {
-        //  text: '', // EDIT link and text
-        //  useHTML: true
-        //},
+        subtitle: {
+          text: 'Download <a href="langues.csv"> source data</a>', // EDIT link and text
+          useHTML: true
+        },
         credits: {
           enabled: true,
-          text: 'ENSAE Dataviz (Source: Wikipedia) <br /><br /> Download <a href="langues.csv"> source data</a>'
+          text: 'ENSAE Dataviz (Source: Wikipedia)'
 	},
         data: {
           csv: csv,
