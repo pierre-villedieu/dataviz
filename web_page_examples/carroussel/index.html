@@ -122,7 +122,8 @@
   function changeSeriesColors(data) {
     colors = {
       'SampleCategory1': 'rgba(100, 0, 0, 0.3)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-      'SampleCategory2': 'red'
+      'SampleCategory2': 'red', 
+      'SampleCategory3': 'blue', 
     }
     for (i = 0; i < data.series.length; i++) {
       data.series[i].color = colors[data.series[i].name] || 'rgba(51, 102, 255, 0.5)';
@@ -133,7 +134,8 @@
   function changeSeriesMarkers(data) {
     markers = {
       'SampleCategory1': 'circle',
-      'SampleCategory2': 'triangle'
+      'SampleCategory2': 'triangle',
+      'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
       data.series[i].marker = {symbol: markers[data.series[i].name] || 'circle'};
