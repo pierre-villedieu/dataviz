@@ -37,7 +37,7 @@
                 series: []
             };
             // JQuery function to process the csv data
-            $.get('column-data.csv', function(data) {
+            $.get('dataviz/web_page_examples/carroussel/column-data.csv', function(data) {
                 // Split the lines
                 var lines = data.split('\n');
                 $.each(lines, function(lineNo, line) {
