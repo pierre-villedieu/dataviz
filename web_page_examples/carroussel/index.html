@@ -397,21 +397,21 @@ Highcharts.chart('container1', {
   // Customize colors of series
   function changeSeriesColors(data) {
     colors = {
-      'SampleCategory1': 'blue', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-      'SampleCategory2': 'red', 
-      'SampleCategory3': 'green', 
+      'Anglais': 'blue', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
+      'Mixte': 'red', 
+      "Langue d'origine": 'green', 
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].color = "red" ;
+      data.series[i].color = colors[data.series[i].name] ;
     }
   }
   // Customize markers of scatter series. Possible options are:
   // 'circle', 'square', 'diamond', 'triangle', 'triangle-down'
   function changeSeriesMarkers(data) {
     markers = {
-      'SampleCategory1': 'circle',
-      'SampleCategory2': 'triangle',
-      'SampleCategory3': 'square'
+      'Anglais': 'circle',
+      'Mixte': 'triangle',
+      "Langue d'origine": 'square'
     }
     for (i = 0; i < data.series.length; i++) {
       data.series[i].marker = {symbol: markers[data.series[i].name]};
