@@ -86,18 +86,13 @@
               // EDIT tooltip text labels below to match your data
               html = '<table>';
               html += point.name ;
-              html += '<tr><th>Année : </th><td>' + point.category + '</td></tr>';
+              html += '<tr><th>Année : </th><td>' + point.x + '</td></tr>';
               html += '<tr><th> Victoires :</th><td>' + point.y + '</td></tr>';
               html += '</table>';
               return html;
             },
             followPointer: true,
             hideDelay: 50
-        },
-        credits: {
-          enabled: true,
-          text: 'View Highcharts.com template by DataVizForAll.org',
-          href: creditURL,
         },
       });
     });
@@ -130,7 +125,7 @@
       'SampleCategory3': 'green', 
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].color = colors[data.series[i].category] ;
+      data.series[i].color = colors[data.series[i].name] ;
     }
   }
   // Customize markers of scatter series. Possible options are:
@@ -142,7 +137,7 @@
       'SampleCategory3': 'square'
     }
     for (i = 0; i < data.series.length; i++) {
-      data.series[i].marker = {symbol: markers[data.series[i].category]};
+      data.series[i].marker = {symbol: markers[data.series[i].name]};
     }
   }
   // Returns a string that contains digits of val split by comma evey 3 positions
