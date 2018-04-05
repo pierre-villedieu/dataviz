@@ -1,187 +1,63 @@
-"Année","Langue","Victoires cumulées"
-1956,"Anglais",0
-1957,"Anglais",0
-1958,"Anglais",0
-1959,"Anglais",0
-1960,"Anglais",0
-1961,"Anglais",0
-1962,"Anglais",0
-1963,"Anglais",0
-1964,"Anglais",0
-1965,"Anglais",0
-1966,"Anglais",0
-1967,"Anglais",1
-1968,"Anglais",1
-1969,"Anglais",1
-1970,"Anglais",2
-1971,"Anglais",2
-1972,"Anglais",2
-1973,"Anglais",2
-1974,"Anglais",3
-1975,"Anglais",4
-1976,"Anglais",5
-1977,"Anglais",5
-1978,"Anglais",5
-1979,"Anglais",5
-1980,"Anglais",6
-1981,"Anglais",7
-1982,"Anglais",7
-1983,"Anglais",7
-1984,"Anglais",7
-1985,"Anglais",7
-1986,"Anglais",7
-1987,"Anglais",8
-1988,"Anglais",8
-1989,"Anglais",8
-1990,"Anglais",8
-1991,"Anglais",8
-1992,"Anglais",9
-1993,"Anglais",10
-1994,"Anglais",11
-1995,"Anglais",11
-1996,"Anglais",12
-1997,"Anglais",13
-1998,"Anglais",13
-1999,"Anglais",14
-2000,"Anglais",15
-2001,"Anglais",16
-2002,"Anglais",17
-2003,"Anglais",18
-2004,"Anglais",18
-2005,"Anglais",19
-2006,"Anglais",20
-2007,"Anglais",20
-2008,"Anglais",21
-2009,"Anglais",22
-2010,"Anglais",23
-2011,"Anglais",24
-2012,"Anglais",25
-2013,"Anglais",26
-2014,"Anglais",27
-2015,"Anglais",28
-2016,"Anglais",28
-2017,"Anglais",28
-1956,"Mixte",0
-1957,"Mixte",0
-1958,"Mixte",0
-1959,"Mixte",0
-1960,"Mixte",0
-1961,"Mixte",0
-1962,"Mixte",0
-1963,"Mixte",0
-1964,"Mixte",0
-1965,"Mixte",0
-1966,"Mixte",0
-1967,"Mixte",0
-1968,"Mixte",0
-1969,"Mixte",0
-1970,"Mixte",0
-1971,"Mixte",0
-1972,"Mixte",0
-1973,"Mixte",0
-1974,"Mixte",0
-1975,"Mixte",0
-1976,"Mixte",0
-1977,"Mixte",0
-1978,"Mixte",0
-1979,"Mixte",0
-1980,"Mixte",0
-1981,"Mixte",0
-1982,"Mixte",0
-1983,"Mixte",0
-1984,"Mixte",0
-1985,"Mixte",0
-1986,"Mixte",0
-1987,"Mixte",0
-1988,"Mixte",0
-1989,"Mixte",0
-1990,"Mixte",0
-1991,"Mixte",0
-1992,"Mixte",0
-1993,"Mixte",0
-1994,"Mixte",0
-1995,"Mixte",0
-1996,"Mixte",0
-1997,"Mixte",0
-1998,"Mixte",0
-1999,"Mixte",0
-2000,"Mixte",0
-2001,"Mixte",0
-2002,"Mixte",0
-2003,"Mixte",0
-2004,"Mixte",1
-2005,"Mixte",1
-2006,"Mixte",1
-2007,"Mixte",1
-2008,"Mixte",1
-2009,"Mixte",1
-2010,"Mixte",1
-2011,"Mixte",1
-2012,"Mixte",1
-2013,"Mixte",1
-2014,"Mixte",1
-2015,"Mixte",1
-2016,"Mixte",2
-2017,"Mixte",2
-1956,"Langue d'origine",1
-1957,"Langue d'origine",2
-1958,"Langue d'origine",3
-1959,"Langue d'origine",4
-1960,"Langue d'origine",5
-1961,"Langue d'origine",6
-1962,"Langue d'origine",7
-1963,"Langue d'origine",8
-1964,"Langue d'origine",9
-1965,"Langue d'origine",10
-1966,"Langue d'origine",11
-1967,"Langue d'origine",11
-1968,"Langue d'origine",12
-1969,"Langue d'origine",13
-1970,"Langue d'origine",13
-1971,"Langue d'origine",14
-1972,"Langue d'origine",15
-1973,"Langue d'origine",16
-1974,"Langue d'origine",16
-1975,"Langue d'origine",16
-1976,"Langue d'origine",16
-1977,"Langue d'origine",17
-1978,"Langue d'origine",18
-1979,"Langue d'origine",19
-1980,"Langue d'origine",19
-1981,"Langue d'origine",19
-1982,"Langue d'origine",20
-1983,"Langue d'origine",21
-1984,"Langue d'origine",22
-1985,"Langue d'origine",23
-1986,"Langue d'origine",24
-1987,"Langue d'origine",24
-1988,"Langue d'origine",25
-1989,"Langue d'origine",26
-1990,"Langue d'origine",27
-1991,"Langue d'origine",28
-1992,"Langue d'origine",28
-1993,"Langue d'origine",28
-1994,"Langue d'origine",28
-1995,"Langue d'origine",29
-1996,"Langue d'origine",29
-1997,"Langue d'origine",29
-1998,"Langue d'origine",30
-1999,"Langue d'origine",30
-2000,"Langue d'origine",30
-2001,"Langue d'origine",30
-2002,"Langue d'origine",30
-2003,"Langue d'origine",30
-2004,"Langue d'origine",30
-2005,"Langue d'origine",30
-2006,"Langue d'origine",30
-2007,"Langue d'origine",31
-2008,"Langue d'origine",31
-2009,"Langue d'origine",31
-2010,"Langue d'origine",31
-2011,"Langue d'origine",31
-2012,"Langue d'origine",31
-2013,"Langue d'origine",31
-2014,"Langue d'origine",31
-2015,"Langue d'origine",31
-2016,"Langue d'origine",31
-2017,"Langue d'origine",32
+"Anglais","Langue d'origine"
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+0,8
+0,9
+0,10
+0,11
+1,11
+1,12
+1,13
+2,13
+2,14
+2,15
+2,16
+3,16
+4,16
+5,16
+5,17
+5,18
+5,19
+6,19
+7,19
+7,20
+7,21
+7,22
+7,23
+7,24
+8,24
+8,25
+8,26
+8,27
+8,28
+9,28
+10,28
+11,28
+11,29
+12,29
+13,29
+13,30
+14,30
+15,30
+16,30
+17,30
+18,30
+18,30
+19,30
+20,30
+20,31
+21,31
+22,31
+23,31
+24,31
+25,31
+26,31
+27,31
+28,31
+28,31
+28,32
