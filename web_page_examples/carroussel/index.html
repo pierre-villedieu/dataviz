@@ -42,7 +42,7 @@
         data: {
           csv: csv,
           // data column headers (x, y, name...) must match column numbers (0, 1, 2...). Optional: category: 3
-          seriesMapping: [{Anglais: 0, "Langue d'origine": 1, Mixte: 2}],
+          seriesMapping: [{x: 0, y: 2}],
           complete: function(data) {
             categoriesIntoSeries(data);
             changeSeriesColors(data);
@@ -50,7 +50,7 @@
           }
         },
         legend: {
-          enabled: false  // EDIT to true if using more than one category, color, shape
+          enabled: true  // EDIT to true if using more than one category, color, shape
         },
         xAxis: {
           title: {
