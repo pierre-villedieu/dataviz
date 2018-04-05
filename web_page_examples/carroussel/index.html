@@ -69,7 +69,7 @@
         plotOptions: {
             scatter: {
                 marker: {
-                    radius: 1,
+                    radius: 5,
                     states: {
                         hover: {
                           enabled: true,
@@ -126,7 +126,7 @@
   function changeSeriesColors(data) {
     colors = {
       'SampleCategory1': 'rgba(100, 0, 0, 0.3)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-      'SampleCategory2': 'rgba(0, 100, 0, 0.3)', 
+      'SampleCategory2': 'rgba(50, 50, 50, 0.3)', 
       'SampleCategory3': 'rgba(0, 0, 100, 0.3)', 
     }
     for (i = 0; i < data.series.length; i++) {
