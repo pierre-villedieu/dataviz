@@ -3304,7 +3304,7 @@
 			}
 
 			.wrapper.style3 .inner {
-				position: relative;
+				position: static;
 				z-index: 2;
 			}
 
