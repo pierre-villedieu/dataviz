@@ -2079,11 +2079,11 @@
 		}
 
 			.flex.flex-2 .col.col1 {
-				width: 46%;
+				width: 30%;
 			}
 
 			.flex.flex-2 .col.col2 {
-				width: 50%;
+				width: 66%;
 			}
 
 			@media screen and (max-width: 736px) {
