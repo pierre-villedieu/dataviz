@@ -405,7 +405,7 @@
 				    text: 'Année'  // EDIT to insert horizontal x-axis label
 				  }, 
 				  plotBands: [{
-				    color: 'rgb(300,150,50,0.2)', // Color value
+				    color: 'rgb(0, 138, 230,0.6)', // Color value
 				    from: 1991, // Start of the plot band
 				    to: 2017, // End of the plot band
 				    label: { 
@@ -473,9 +473,9 @@
 			  // Customize colors of series
 			  function changeSeriesColors(data) {
 			    colors = {
-			      'Anglais': '#fc9272', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-			      "Langue d'origine": '#7fcdbb', 
-			      'Mixte': 'rgb(250,50,150,0.5)'
+			      'Anglais': 'rgb(0, 138, 230,0.2)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
+			      "Langue d'origine": 'rgb(230, 115, 0, 0.2)', 
+			      'Mixte': 'rgb(179, 0, 134, 0.2)'
 			    }
 			    for (i = 0; i < data.series.length; i++) {
 			      data.series[i].color = colors[data.series[i].name] ;
