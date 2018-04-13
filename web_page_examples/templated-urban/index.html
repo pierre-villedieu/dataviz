@@ -153,7 +153,7 @@
 				
 		<!-- début section5 -->
 		<section class="wrapper style1">
-			<div class="inner" style = "width:500px;">
+			<div class="inner" style = "width:842px;">
 				<!-- 2 Columns -->
 					<div class="flex flex-5">
 						<div class="col col1" style = "width:300px;">
@@ -405,7 +405,7 @@
 				    text: 'Année'  // EDIT to insert horizontal x-axis label
 				  }, 
 				  plotBands: [{
-				    color: 'rgb(0, 138, 230,0.6)', // Color value
+				    color: 'rgb(0, 138, 230,0.2)', // Color value
 				    from: 1991, // Start of the plot band
 				    to: 2017, // End of the plot band
 				    label: { 
@@ -473,9 +473,9 @@
 			  // Customize colors of series
 			  function changeSeriesColors(data) {
 			    colors = {
-			      'Anglais': 'rgb(0, 138, 230,0.2)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
-			      "Langue d'origine": 'rgb(230, 115, 0, 0.2)', 
-			      'Mixte': 'rgb(179, 0, 134, 0.2)'
+			      'Anglais': 'rgb(0, 138, 230,0.8)', // to add transparency, define colors in rgba() model, where the last number is between 0 and 1 (opacity)
+			      "Langue d'origine": 'rgb(230, 115, 0, 0.8)', 
+			      'Mixte': 'rgb(179, 0, 134, 0.8)'
 			    }
 			    for (i = 0; i < data.series.length; i++) {
 			      data.series[i].color = colors[data.series[i].name] ;
