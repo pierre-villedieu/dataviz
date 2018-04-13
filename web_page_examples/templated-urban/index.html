@@ -68,12 +68,12 @@
 							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 							  // Display the result in the element with id="demo"
-							  document.getElementById("demo").innerHTML = "<p> <h3>Aucune victoire depuis :</h3>" +
-								  "<font size='15'>" + years  + " ans"+ "</font>" +
-								  "<font size='10'>" + days + " jours " + "</font>" + 
+							  document.getElementById("demo").innerHTML ="<p> <font size='10'> <b> Aucune victoire depuis </b> <font color='rgb(204, 0, 0, 0.9)'>" + 
+								  years  + " ans"+ "</font> </font>" +
+								  "<br> </br> <font size='7'> Soit : " + "<font color='rgb(204, 0, 0, 0.9)'>" + days + " jours " + 
 								  "<font size='7'>" + hours + "h "+ "</font>" + 
-								  "<font size='5'>" + minutes + "m " +  "</font>" + 
-								  "<font size='3'>" + seconds + "s " + "</font> </p>"; 
+								  "<font size='7'>" + minutes + "m " +  "</font>" + 
+								  "<font size='7'> et " + seconds + "s </font> </font> de disette" + "</font> </p>"; 
 
 							  // If the count down is finished, write some text 
 							  if (distance < 0) {
