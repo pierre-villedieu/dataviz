@@ -284,6 +284,16 @@
 
 		<!-- début section8 -->
 		<section class="wrapper style1">
+			<div class="inner" style="width:1100px;">
+					<header class="align-center">
+						<h2>4) La stratégie de vote</h2>
+						<p><b>Détectons les pays copains</p>
+						<p><b>Votons pour les mauvais</p>
+						<p></p>
+
+
+					</header>
+			</div>
 			<div class="inner" style="width:1150px;">
 				<!-- 2 Columns -->
 					<div class="flex flex-5">
@@ -294,9 +304,27 @@
 
 						</div>
 						<div class="col col2" style="width:550px;">
-							<h3>Evitons les pays radins!</h3>
+							<h3>2.1) Evitons les pays radins!</h3>
 							<p>Malheureusement, impossible de voter pour soi-même au concours. Nous sommes obligés d'attribuer des points aux concurrents. Quel Pays mérite nos points?</p>
 							<p>Premier conseil et non des moindres pour gagner en crédibilité: arrêtons d'attribuer des points aux pays qui nous en envoient jamais! <b>La Turquie, Israel et l'Espagne n'ont pas vraiment l'air de nous rendre la pareille...  Inversement, nous devrions être plus sympa avec la Bosnie, la Lituanie et l'Islande: ils mériteraient davantage notre soutien!</b></p>
+
+						</div>
+					</div>
+			</div>
+		</section>
+	<div class="inner" style="width:1150px;">
+				<!-- 2 Columns -->
+					<div class="flex flex-5">
+
+						<div class="col col1" style="width:550px;">	
+
+							<div id="losers"></div>	
+
+						</div>
+						<div class="col col2" style="width:550px;">
+							<h3>2.2) Votons pour les outsiders du concours</h3>
+							<p></p>
+							<p></p>
 
 						</div>
 					</div>
@@ -585,7 +613,207 @@
 			      return val;
 			  }
 			  </script>
+<script>
+Highcharts.chart('losers', {
+    chart: {
+        type: 'spline',
+        inverted: true
+    },
+    title: {
+        text: 'Rang moyen en finale des pays en lice pour 2018'
+    },
+    subtitle: {
+        text: '(De 1975 à 2016)'
+    },
+    credits: {
+				  enabled: true,
+				  text: 'ENSAE Dataviz (Source: <a href="https://data.world/datagraver/eurovision-song-contest-scores"><i>data.world</a>)'
+				},
+    legend: {
+				 enabled: false  
+				},
+    xAxis: {
+        categories: [ 'Australie', 'Bulgarie','Ukraine','Russie', 'Azerbaïdjan', 'Italie','Suède','Arménie', 'Serbie', 'Irlande','Israël', 'Lettonie','Danemark',  'Estonie',   'Royaume-Uni', 'Grèce','Pays-Bas',  'Malte',    'France',    'Suisse',    'Allemagne','Croatie',   'Georgie',   'Norvège',  'Belgique',  'Albanie',   'Moldavie', 'Roumanie',  'Espagne',   'Chypre',   'Autriche',  'Islande',   'Pologne',  'Portugal',  'Hongrie',   'Macédoine','Biélorussie' ,       'Slovénie',  'Monténégro' ,'Finlande',  'Lituanie',  'Saint-Marin' ,      'République Tchèque'],
+        padding: 5,
+        labels: {
+         step: 1,
+		    style: {
+			    fontSize:'10px'
+		}}
+    },
+    yAxis: {
+        title: {
+            text: 'Rang moyen'
+        },
+        min:1,
+        max:25,
+        labels: {
+            formatter: function () {
+                return this.value ;
+            }
+        }
+    },
+    tooltip: {
+        crosshairs: true,
+        shared: true
+    },
+    plotOptions: {
+        spline: {
+            marker: {
+                radius: 3.5,
+                lineColor: '#666666',
+                lineWidth: 0,
+                fillColor: 'rgb(30,144,255)'
+            }
+        },
+    },
+    series: [{
+        name: 'Rang Moyen',
+        lineWidth: 0.5,
+        marker: {
+            symbol: 'circle',
+        },
+        data: [3.5,  {
+            y: 4.5,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        },  7.5,  7.9,  8.1,  8.4,  8.9,  {
+            y: 9.2,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        },  9.3,  9.4, 10.2, 10.2, 10.5, 10.5, 10.9, 11.0, 11.2, 11.4, {
+            y: 11.8,
+            marker: {
+                symbol: 'url(https://png.icons8.com/android/1600/year-of-rooster.png)',
+                 width: 15,
+            		height: 15
+            },
+            
+        }, 11.9, 12.0, {
+            y: 12.3,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 12.4,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, 12.5, 12.7, {
+            y: 13.3,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 13.4,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, 13.4, 13.4, {
+            y: 13.5,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, 14.0, 14.1, 14.9, {
+            y: 15.0,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 15.2,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 15.4,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 15.5,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 15.5,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 16.0,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, 16.1, {
+            y: 18.2,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 24,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }, {
+            y: 25,
+            marker: {
+                symbol: 'url(https://d30y9cdsu7xlg0.cloudfront.net/png/30204-200.png)',
+                 width: 20,
+            		height: 20
+            },
+            
+        }]
 
+    }]
+});
+</script>
 			<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
 	</body>
 </html>
