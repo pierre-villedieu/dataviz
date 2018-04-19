@@ -11,6 +11,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117670116-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-117670116-1');
+		</script>
 	</head> 
 	<!-- Head -->
 	
@@ -24,7 +33,7 @@
 
 		<!-- Banner -->
 		<section id="banner">
-			<div class="inner" style="width:1100px;">
+			<div class="inner">
 				<header>
 					<h1>Comment gagner à l'Eurovision ?</h1>
 					<p>Nous avons la solution!</p>
@@ -34,16 +43,26 @@
 		</section>
 
 		<!-- début Main -->
-		<div id="main">		
+		<div id="main">	
+			
+			<!--
+			<section class="wrapper style2">
+			
+			<div data-fsid="e.5ad5093c4e2aca01006a0419" data-width="100%" data-height="auto"></div>
+			<script async src="https://4screens.net/4screens-service-loader.js"></script>
+		
+			</section>
+			-->
+			
 			<!-- début main 1 --> 
 			<section class="wrapper style2">
-				<div class="inner" style="width:1100px;">
+				<div class="inner">
 					<!-- 2 Columns -->
 						<div class="flex flex-2">
 							
-							<div class="col col1">	
+							<div class="col col1" align="center" style="width:40%;margin-bottom:100px;">	
 								
-							<img width="300" style="margin:5px; padding:5px;" src="images/pic01.jpg" alt="" />
+							<img width="100%" style="margin:5px; padding:5px;" src="images/pic01.jpg" alt="" />
 							
 							<!-- Display the countdown timer in an element -->
 							<p id="demo"></p>
@@ -69,12 +88,12 @@
 							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 							  // Display the result in the element with id="demo"
-							  document.getElementById("demo").innerHTML ="<p> <font size='5'> <b> Aucune victoire depuis </b> <font color='rgb(204, 0, 0, 0.9)'>" + 
-								  years + " ans"+ "</font> </font>" +
-								  "<br> </br> <font size='4'> Soit " + "<font color='rgb(204, 0, 0, 0.9)'>" + 
-								  days + " jours " + 
-								  hours + "h " + 
-								  minutes + "m " + 
+							  document.getElementById("demo").innerHTML ="<p> <font size='6'> <b> Aucune victoire depuis <font color='rgb(204, 0, 0, 0.9)'>" + 
+								  years + " ans"+ " </b> </font> </font>" +
+								  "<br> </br> <font size='6'> Soit " + "<font color='rgb(204, 0, 0, 0.9)'>" + 
+								  days + " jours </font> <font size='5'>" + 
+								  hours + "h </font> <font size='5'>" + 
+								  minutes + "m </font> <font size='5'>" + 
 								  " et " + seconds + "s </font> </font> de disette !</p>"; 
 
 							  // If the count down is finished, write some text 
@@ -86,9 +105,9 @@
 							</script>
 
 							</div>
-							<div class="col col2">
+							<div class="col col2" style="width:50%;text-align:justify;">
 								<h3>La France va mal</h3>
-								<p>Tic, Tac... les années passent et se ressemblent pour la France. Nous avons pourtant tenté plusieurs stratégies en envoyant des représentants de style très différents: Amir, Patricia Kaas, Sebastien Tellier ou encore Anggun ne sont malheureusement pas parvenus à faire remporter à la France le précieux sésame.
+								<p>Tic, Tac... les années passent et se ressemblent pour la France. Nous avons pourtant tenté plusieurs stratégies en envoyant des représentants de styles très différents: Amir, Patricia Kaas, Sebastien Tellier ou encore Anggun ne sont malheureusement pas parvenus à faire remporter à la France le précieux sésame.
 								<br> Cette année, et pour la première fois à l'aide du vote des téléspectateurs, le duo "Madame Monsieur" <a target="_blank" href="https://www.youtube.com/watch?v=6ft3_DOajNY"> <font color='rgb(0, 0, 153,0.9)'>(clip officiel) </font></a> a été choisi pour défendre la France dans l'Altice Arena de Lisbonne: a-t-on une chance de les voir conjurer le mauvais sort ? </br> </p>
 								<p> Pourquoi est-ce que la France n'arrive pas à gagner l'Eurovision? Quelle est la stratégie ultime pour faire gagner la France? <b>Après des décennies de fouille dans les archives du concours, nous avons trouvé la formule gagnante pour y arriver.</b></p>
 							</div>
@@ -104,13 +123,16 @@
 
 			<!-- début main 2 -->
 			<section class="wrapper style1">
-				<div class="inner" style="width:1100px;">
+				<div class="inner">
 					<header class="align-center">
-						<h2>Checklist</h2>
-						<h3>1) Le représentant</h3>
-						<h3>2) La chanson</h3>
-						<h3>3) La Com </h3>
-						<h3>4) La stratégie de vote</h3>
+						
+						<h2>La victoire en 4 étapes</h2>
+						
+						<h3> <img style="vertical-align:middle" width="5%" src="images/representants3.png"> <span style="display:inline-block; width: 25px;"></span> Le choix du représentant </h3>
+						<h3> <img style="vertical-align:middle" width="5%" src="images/song.png"> <span style="display:inline-block; width:  25px;"></span> La chanson </h3>
+						<h3> <img style="vertical-align:middle" width="5.5%" src="images/com.png"> <span style="display:inline-block; width:  25px;"></span> La Com </h3>
+						<h3> <img style="vertical-align:middle" width="5%" src="images/voting.png"> <span style="display:inline-block; width:  25px;"></span> La stratégie de vote </h3>
+						
 					</header>
 					<div class="flex flex-1">
 
@@ -123,12 +145,12 @@
 		
 		<!-- début section1 -->
 		<section class="wrapper style2">
-			<div class="inner" style="width:1100px;">
+			<div class="inner">
 				
-				<header class="align-center">
-					<h2>1) Le représentant</h2>
-					<p>Age, genre, groupe</p>
-				</header>
+				<div class="align-center">
+					<h2><img style="vertical-align:middle" width="7%" src="images/representants3.png"> <span style="display:inline-block; width: 25px;"></span> Le représentant</h2>
+					<p> <font size='5'> Homme ou femme ? Jeune talent ou vieux brisquard ? En solo ou à plusieurs ? </font></p>
+				</div>
 				
 				<div class="flex flex-3">
 					<div class="col align-center">
@@ -147,11 +169,17 @@
 						<div class="image round fit">
 							<img src="images/Solo_Group.png" alt="" />
 						</div>
-						<p>La France a choisit un duo pour défendre ses couleurs cette année. C'est visiblement une mauvaise idée: les chanteurs solo gagnent plus souvent!</p>
+						<p>La France a choisi un duo pour défendre ses couleurs cette année. C'est visiblement une mauvaise idée: les chanteurs solo gagnent plus souvent!</p>
 					</div>
 				</div>
+				
+				 <div align="right">
+					 Source : <i> Wikipédia </i>
+				</div> 
 			</div>
-
+		
+			
+			<!--
 			<div class="inner" style="width:1100px;">
 				<header class="align-center">
 					<h2>Voilà notre représentant</h2>
@@ -162,28 +190,29 @@
 						</div>
 				</div>
 			</div>
+			-->
+			
 		</section>
 		<!-- fin section2 -->
 		
 		<!-- début section3 -->
 		<section class="wrapper style1">
-				<div class="inner" style="width:1100px;">
-					<header class="align-center">
-						<h2>2) La chanson</h2>
-						<p><b>La langue </b>: Terroir Vs Anglais</p>
-						<p><b>Les paroles </b>: On parle de quoi ?</p>
-						<p></p>
-
-
-					</header>
+			<div class="inner" style="margin-bottom:140px;">
+				<header class="align-center">
+					<h2><img style="vertical-align:middle" width="6.5%" src="images/song.png"> <span style="display:inline-block; width: 25px;"></span> La chanson</h2>
+					<p></p>
+					<p><b>La langue </b>: Terroir Vs Anglais</p>
+					<p><b>Les paroles </b>: On parle de quoi ?</p>
+					<p></p>
+				</header>
 			</div>
-			<div class="inner" style="width:1150px;">
+			<div class="inner" style="margin-bottom:140px;">
 				<div class="flex flex-5">
-					<div class="col col1" style="width:550px;" >
+					<div class="col col1">
 						<div id="container2"></div>
 					</div>
-					<div class="col col2" style="width:550px;">
-						<h3>2.1) Chantons anglais!</h3>
+					<div class="col col2">
+						<h3> Chantons anglais!</h3>
 						<p><b>La France aime chanter français à l'Eurovision: stratégiquement, c'est une très mauvaise idée.</b> Depuis près d'une trentaine d'années, les gagnants ont très souvent chanté en anglais. Les chansons "mixtes" sont la nouvelle mode de l'Eurovision: une autre stratégie, risquée mais potentiellement payante, serait de tenter une chanson en "fran-glais". Quelqu'un aurait le numéro de Christine and the Queens?</p>
 						<p>Fun fact: <b>l'année qui déclenche le succès de la langue anglais à l'Eurovision coïncide parfaitement avec la chute du mur.</b> Coïncidence?</p>
 
@@ -191,77 +220,81 @@
 
 				</div>
 			</div>
-		<div class="inner" style="width:1150px;">
+			<div class="inner" style="margin-bottom:140px;">
 				<!-- 2 Columns -->
-					<div class="flex flex-5">
-						<div class="col col1" style = "width:550px;">
-
-						<h3>2.2) Les paroles gagnantes</h3>
+				<div class="flex flex-5">
+				<div class="col col1" style = "text-align:justify;width:35%">
+						<h3>Les paroles gagnantes</h3>
 						<p>Une analyse des paroles (traduites) des chansons gagnantes de la compétition depuis 1956 nous permet de créer la chanson ultime pour gagner à l'Eurovision. Love, scared, heroes, rock... Des paroles très engagées ressortent de l'analyse.</p>
 						<p>Fun fact: En fonction des époques, des mots à la mode ressortent: <b>Rock est par exemple la parole la plus chantée dans les années 1980</b></p>
-						<p> </p>
+						<p></p>
 						<p>Nous avons les ingrédients pour créer une chanson victorieuse. <b><font color='rgb(204, 0, 0, 0.9)'>Il nous reste à la composer grâce à <a href="https://www.song-lyrics-generator.org.uk/"><i>Lyrics generator</i></a>, un générateur en ligne de paroles!</font></b></p>
-
-
-						</div>
-						<div class="col col2" style = "width:550px;">
-							<iframe align = "center" src=" https://pvilledieu.shinyapps.io/eurovision/" style="border:40px;width:500px;height:500px;"></iframe>
-						</div>
 					</div>
+					<div class="col col2" style="width:50%;">
+						<iframe align = "left" src=" https://pvilledieu.shinyapps.io/euroviz/" allowtransparency="true" style="width:600px; height:800px;  margin-left: -30%"></iframe>
+					</div>
+				</div>
 			</div>
 	
-			<div class="inner" style="width:1150px;">
+			<div class="inner" style="margin-bottom:100px;">
 				<header class="align-center">
 					<h2>La chanson ultime pour remporter l'Eurovision</h2>
 					<h3>A Sweet Kinda Singer</h3>
 				</header>
 			</div>
-					<div class="inner" style="width:550px;">
+			<div class="inner">
 				<div class="flex flex-5">
-					<div class="col col1" style="width:250px;" >
+					<div class="col col1">
 						<center>
-						<p style="font-size:50%;"> I get on with life as a singer,<br>
+						<p style="font-size:75%;"> I get on with life as a singer,<br>
 						I'm a sweet kinda person.<br>
 						I like singing and running.<br>
 						I like to dance rock.<br>
 						But when I start to daydream,<br>
 						My mind turns straight to swing.<br></p>
 
-						<p style="font-size:50%;"> Shala la la la la la! <br></p>
+						<p style="font-size:75%;"> Shala la la la la la! <br></p>
 
-						<p style="font-size:50%;"> Do I love swing more than rock?<br>
+						<p style="font-size:75%;"> Do I love swing more than rock?<br>
 						Do I love swing more than rock?<br></p>
 
-						<p style="font-size:50%;"> I like to use words like 'life' and 'euphoria.'<br>
+						<p style="font-size:75%;"> I like to use words like 'life' and 'euphoria.'<br>
 						I like to use words about rock.<br>
 						But when I stop my talking,<br>
 						My mind turns straight to swing.<br></p>
 
-						<p style="font-size:50%;">Shala la la la la la! <br></p>
+						<p style="font-size:75%;">Shala la la la la la! <br></p>
 						</center>
 					</div>
-					<div class="col col2" style="width:250px;">
+					<div class="col col2">
 						<center>
-						<p style="font-size:50%;">Do I love swing more than rock?<br>
+						<p style="font-size:75%;">Do I love swing more than rock?<br>
 						Do I love swing more than rock?<br></p>
 
-						<p style="font-size:50%;">I like to hang out with Elvis and Johnny.<br>
+						<p style="font-size:75%;">I like to hang out with Elvis and Johnny.<br>
 						But when left alone,<br>
 						My mind turns straight to swing.<br></p>
 
-						<p style="font-size:50%;">Shala la la la la la! <br></p>
+						<p style="font-size:75%;">Shala la la la la la! <br></p>
 
-						<p style="font-size:50%;">Do I love swing more than rock?<br>
+						<p style="font-size:75%;">Do I love swing more than rock?<br>
 						Do I love swing more than rock?<br></p>
 
-						<p style="font-size:50%;">I hate war and tears.<br>
+						<p style="font-size:75%;">I hate war and tears.<br>
 						But I just think back to swing,<br>
 						And I'm happy once again.<br></p>
 
-						<p style="font-size:50%;">Shala la la la la la!<br></p>
+						<p style="font-size:75%;">Shala la la la la la!<br></p>
 						</center>
 					</div>
-
+					
+					<div class="inner">
+						<header class="align-center">
+						<iframe frameborder="0" width="100%" height="125" src="https://www.smule.com/recording/luis-fonsi-demi-lovato-a-sweet-kinda-singer/1679587594_2156056041/frame"></iframe>
+						</header>
+					</div>
+					
+					
 				</div>
 			</div>
 		</section>
@@ -269,68 +302,105 @@
 
 		<!-- début section7 -->
 		<section class="wrapper style2">
-			<div class="inner"  style="width:1100px;">
+			<div class="inner">
+				<header class="align-center">
+					<h2><img style="vertical-align:middle" width="6%" src="images/com.png"> <span style="display:inline-block; width: 25px;"></span> La Com</h2>
+				</header>
+			</div>
+			
+			<div class="inner"  style="margin-bottom:140px;">
 				<div class="flex flex-5">
-					<div class="col col1" style = "width:500px;">
-						<iframe align = "center" width="500" height="400" frameborder="10" scrolling="no" src="//plot.ly/~eurovision-dataviz-ensae/10.embed?share_key=UdW37yBC3dCHzqxTBoEqla&show_link=false"></iframe>
+					
+					<div class="col col1" style = "width:50%;">
+						<iframe align = "center" width="50%" height="500px" frameborder="10" scrolling="no" src="//plot.ly/~eurovision-dataviz-ensae/10.embed?share_key=UdW37yBC3dCHzqxTBoEqla&show_link=false"></iframe>
 					</div>
-					<div class="col col2" >
-						<h3>3) Le Buzz ne paie pas forcément</h3>
-						<p><b>La guerre ne se gagne pas forcément sur les réseaux sociaux.</b> Généralement, les vainqueurs de la compétition n'étaient pas ceux qui emportaient le plus de buzz sur internet. Inversement, certains perdants avaient pourtant su générer un engouement important sur la toile</p>
-						<p>Gardons notre énergie pour réfléchir à moyen plus direct de gagner.</p>
+					
+					
+					<div class="col col2" style="text-align:justify;vertical-align: middle;">
+						<br/>
+						<br/>
+						<p>
+						<b>La guerre ne se gagne pas forcément sur les réseaux sociaux.</b> On peut même dire qu'en général, les vainqueurs de la compétition ne sont pas ceux qui faisaient le plus de buzz sur internet. <br>
+						</p>
+						<br/>
+
+						<center><p> <b> Le top 3 des plus gros pétards mouillés :</b> </p> 
+					
+						<img src="images/podium.png" vspace="10px"> </center>
+						
+
+						<p> 
+						
+						
+						<b>(1)</b> <b>L'Espagne</b> est la grande championne : l'engouement souvent suscité sur la toile ne l'empêche pas de finir au fond du classement (voir 2009, 2015 et 2016 pour les plus grosses perfs !).<br>
+						<b>(2)</b> La <b>France</b> n'est pas en reste : voir les flops impressionnants d'Anggun en 2012 et de Lisa Angell en 2015. <br>
+						<b>(3)</b> Le <b>Royaume-Uni</b> a aussi subi des gros bides, comme en 2012 et 2016.
+						</p>
+
 
 					</div>
 
 				</div>
+				
+				<div>
+						<br/>
+						<br/>
+						<br/>
+				<center><h4><b>Bilan : </b>Gardons notre énergie pour réfléchir à un moyen plus direct de gagner.
+					</h4></center>
+				</div>
+
 			</div>
+			
+			
+			
 		</section>
+
+
 		<!-- fin section7 -->
 
 		<!-- début section8 -->
 		<section class="wrapper style1">
-			<div class="inner" style="width:1100px;">
+			<div class="inner" style="margin-bottom:150px;">
 					<header class="align-center">
-						<h2>4) La stratégie de vote</h2>
+						<h2><img style="vertical-align:middle" width="7%" src="images/voting.png"> <span style="display:inline-block; width: 25px;"></span> La stratégie de vote</h2>
 						<p><b>Les affinités </b>: Détectons les pays copains</p>
 						<p><b>Les pays avec aucune chance </b>: Votons pour les mauvais</p>
 						<p></p>
-
-
 					</header>
 			</div>
-			<div class="inner" style="width:1150px;">
+			<div class="inner" style="margin-bottom:150px;">
 				<!-- 2 Columns -->
 					<div class="flex flex-5">
 
-						<div class="col col1" style="width:550px;">	
+						<div class="col col1" style="width:50%;">	
 
 							<div id="radins"></div>	
 
 						</div>
-						<div class="col col2" style="width:550px;">
-							<h3>2.1) Evitons les pays radins!</h3>
+						<div class="col col2" style="width:40%;text-align:justify;">
+							<h3>Evitons les pays radins!</h3>
 							<p>Malheureusement, impossible de voter pour soi-même au concours. Nous sommes obligés d'attribuer des points aux concurrents. Quel Pays mérite nos points?</p>
 							<p>Premier conseil et non des moindres pour gagner en crédibilité: arrêtons d'attribuer des points aux pays qui nous en envoient jamais! <b>La Turquie (absente de l'édition 2018), Israel et l'Espagne n'ont pas vraiment l'air de nous rendre la pareille...  Inversement, nous devrions être plus sympa avec des pays comme la Lituanie et l'Islande: ils mériteraient davantage notre soutien!</b></p>
 
 						</div>
 					</div>
 			</div>
-		
-	<div class="inner" style="width:1150px;">
+			<div class="inner">
 				<!-- 2 Columns -->
 					<div class="flex flex-5">
 							
-						<div class="col col1" style="width:550px;">
-							<h3>2.2) Votons pour les outsiders du concours</h3>
+						<div class="col col1" style="width:45%;text-align:justify;">
+							<h3>Votons pour les outsiders du concours</h3>
 							<p><b>Rationalisons un peu plus les votes en offrant nos points aux pays qui n'ont aucune chance de gagner!</b> Aussi surprenant que cela puisse paraître, il y a des pays encore plus poisseux que nous. L'Espagne, bonne dernière de l'édition 2017 en est un bon exemple: 43 participations depuis 1975, aucune victoire et un rang moyen autour de la 14ème place...</p>
 							<p><b>Israel, la Bulgarie et la République Tchèque sont dans l'ordre les trois favoris du concours selon les bookmarkers: pas de points pour eux, évidemment.</p>
 							<p>En fonction des qualifiés en finale, on préferera donner des points aux pays en queue de peloton comme la Slovénie ou Saint-Marin.</b>
 							<p>Fun fact: <b>Saviez vous que nous sommes qualifiés d'office pour la finale?</b> Avec l'Espagne, l'Italie, l'Allemagne et le Royaume-Uni, la France fait partie du "Big Five", les plus gros contributeurs financiers de l'Union Européenne de Radio-Télévision, l'organisateur de l'Eurovision. Injuste hein?</p>
 
 						</div>
-						<div class="col col2" style="width:550px;">	
+						<div class="col col2" style="width:55%;">	
 
-							<iframe align = "center" src="bm.html" style="border:40px;width:525px;height:525px;"></iframe>
+							<iframe align = "center" src="bm.html" style="width:600px;height:600px;"></iframe>
 
 						</div>
 					</div>
@@ -338,50 +408,54 @@
 		</section>
 		<!-- fin section8 -->
 			<section class="wrapper style2">
-				<div class="inner" style="width:1100px;">
+				<div class="inner"">
 					<header class="align-center">
-						<h2>Conclusion</h2>
-						<h3>Le représentant idéal</h3>
-						<p style="font-size:150%; color:white;">Une femme, jeune, chanteuse solo!</p>
-						<h3>La chanson parfaite</h3>
-						<p style="font-size:150%; color:white;">Notre production originale <i>A Sweet Kinda Singer</i> va tout déchirer</p>
-						<h3>La Com</h3>
-						<p style="font-size:150%; color:white;">Pas besoin de buzzer, créons la surprise!</p>
-						<h3>La stratégie de vote optimale</h3>
-						<p style="font-size:150%; color:white;">Un max de points pour les copains (Lituanie, Finlande) et les outsiders (Slovénie, Saint-Marin)</p>
-						<p style="font-size:150%; color:white;">On évite les favoris (Israel, Bulgarie) et les radins (Espagne, Italie)</p>
+						<h2>On vous laisse le dernier mot:<br> Envoyez-nous vos conseils pour faire gagner la France!
+							<ul class="icons">
+					<li><a href="mailto:eurovizdataviz@gmail.com" class="icon fa-envelope" style="color:white"><span class="label">mail</span></a></li>
+					<li><a href="https://twitter.com/eurovizdataviz" class="icon fa-twitter" style="color:white"><span class="label">Twitter</span></a></li>
+				</ul>
+						</h2>
+						<h4><a href="https://twitter.com/Comm_entateur"><i><b><font color='rgb(0, 0, 153,0.9)'>Comm_entateur</i></b></font></a></h4>
+						<p style="font-size:90%; color:white;">"Prendre les répétitions au grand public comme si c’était la compétition: Si tu rates les répétitions, tu foires tes chances!"</p>
+						<h4><a href="https://twitter.com/Arnaud_Drums"><i><b><font color='rgb(0, 0, 153,0.9)'>Arnaud_Drums</i></b></font></a></h4>
+						<p style="font-size:90%; color:white;">"Peut-être que si les  Français s'intéressaient plus à l'Eurovision ça aiderait 😅"</p>
+						<h4><a href="https://twitter.com/QuentinDsb"><i><b><font color='rgb(0, 0, 153,0.9)'>QuentinDsb</i></b></font></a></h4>
+						<p style="font-size:90%; color:white;">"Vu les statistiques, faire de la com' vers les pays plutôt généreux avec nous (télé-vote). Notamment en faisant des versions en d'autres langues de la chanson. Ça a déjà été fait et c'est pas mal."</p>
+						<h4><a href="https://twitter.com/France_ESC"><i><b><font color='rgb(0, 0, 153,0.9)'>France_ESC</i></b></font></a></h4>
+						<p style="font-size:90%; color:white;">"La France s'est très bien remise en question et à su rebondir après une série de mauvais résultats, notamment en changeant de chef de délégation. Les chansons sont très bonnes maintenant ce qu'il pêche à la France c'est peut être la mise en scène."</p>
 
 					</header>
 				</div>
 			</section>
 				<section class="wrapper style1">
-				<div class="inner" style="width:1100px;">
+				<div class="inner"">
 					<header class="align-center">
-						<h2 style="color:red;">Bien sûr, tout ça est à prendre à la rigolade!</h2>
-						<p style="font-size:250%; color:blue;">Tous avec la France pour l'Eurovision 2018!!</p>
+						<h2 style="color:#3498db;">Bien sûr, tout ça est à prendre à la rigolade!</h2>
+						<p style="font-size:250%; color:rgb(255, 26, 26);">Tous avec la France pour l'Eurovision 2018!!</p>
 						<h3>Ça vous a plu? Faites une bonne action et partagez la page sur votre réseau social préféré!
 						<div id="share-buttons">
-      <a href="http://www.facebook.com/sharer.php?u=https://pierre-villedieu.github.io/dataviz/web_page_examples/templated-urban/" target="_blank">
+      <a href="http://www.facebook.com/sharer.php?u=https://eurovizion.github.io/dataviz/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
 	</a>
 							  
     
     <!-- Google+ -->
-    <a href="https://plus.google.com/share?url=https://pierre-villedieu.github.io/dataviz/web_page_examples/templated-urban/" target="_blank">
+    <a href="https://plus.google.com/share?url=https://eurovizion.github.io/dataviz/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
     </a>
     
     <!-- LinkedIn -->
-    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://pierre-villedieu.github.io/dataviz/web_page_examples/templated-urban/" target="_blank">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eurovizion.github.io/dataviz/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
     </a>
  
     <!-- Twitter -->
-    <a href="https://twitter.com/share?url=https://pierre-villedieu.github.io/dataviz/web_page_examples/templated-urban/" target="_blank">
+    <a href="https://twitter.com/share?url=https://eurovizion.github.io/dataviz/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
 	<!-- Email -->
-    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=Regarde%20ce%20site%20incroyable!!%20 https://pierre-villedieu.github.io/dataviz/web_page_examples/templated-urban/">
+    <a href="mailto:?Subject=Regarde ce site incroyable !!&amp;Body=https://eurovizion.github.io/dataviz/">
         <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
     </a>
     					
@@ -392,13 +466,39 @@
 				
 			</section>
 		<!-- Footer -->
-		<footer id="footer">
-			<div class="copyright">
-				<ul class="icons">
-					<li><a href="mailto:nagui.bechichi@ensae.fr" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
-					<li><a href="https://twitter.com/eurovizdataviz" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		<footer id="footer" class="wrapper style2">
+			<div>
+				
+			<div class="inner" style="width:800px;">
+				<div class="flex flex-5">
+					
+					<div class="col col1" style="width:380px;vertical-align:middle;" >
+						<center>
+					<ul class="icons"><img width="75%" src="images/ensae.png"></ul>
+						</center>
+					</div>
+					
+					
+					<div class="col col2" style="width:390px;" >
+						
+						Ce site a été réalisé par 3 étudiants de l'<a href="http://www.ensae.fr/ensae/en/" target="_blank"> <font color='rgb(50, 0, 150,0.9)'>ENSAE ParisTech</font></a> :
+						<br>
+						</br>	
+						<ul>
+							<li>Elia Pérennès</span><span style="display:inline-block; width: 20px;"></span><a href="https://www.linkedin.com/in/eliaprns" target="_blank"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a> <span style="display:inline-block; width: 10px;"></span><a href="mailto:elia.perennes@ensae-paristech.fr" target="_top"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a></li>
+							<br>
+							<li>Nagui Bechichi</span><span style="display:inline-block; width: 11px;"></span><a href="https://www.linkedin.com/in/nagui-bechichi-33a98776"  target="_blank"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a><span style="display:inline-block; width: 10px;"></span><a href="mailto:nagui.bechichi@ensae-paristech.fr" target="_top"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a></li>
+							<br>
+							<li>Pierre Villedieu</span><span style="display:inline-block; width: 8px;"></span><a href="https://www.linkedin.com/in/pierre-villedieu-740215152"  target="_blank"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a><span style="display:inline-block; width: 10px;"></span><a href="mailto:pierre.villedieu@ensae-paristech.fr" target="_top"><img style="vertical-align:middle" width="10%" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a></li>
+						</ul>
+						
+					</div>
+					
 
-				</ul>
+
+				
+				</div>
+</div>
 			</div>
 		</footer>
 		<!-- Footer -->
@@ -430,11 +530,16 @@
 
 		Highcharts.chart('radins', {
 		chart: {
+			style: {
+				fontFamily: 'Scope One,serif'
+			},
+			width : 450,
+			height : 450,
 		type: 'bar',
 		backgroundColor: null
 		},
 		title: {
-		text: 'Réciprocité des dons avec la France depuis 2000'
+		text: 'Réciprocité des votes de la France depuis 2000'
 		},
 		subtitle: {
        		 text: 'Au moins 20 points échangés avec la France'
@@ -446,7 +551,7 @@
 		    step: 1,
 		    style: {
 			    fontFamily: 'Scope One, serif', 
-			    fontSize:'8px'
+			    fontSize:'11px'
 		}
 		}
 		}],
@@ -464,10 +569,12 @@
 
 		plotOptions: {
 		series: {
-		    stacking: 'normal'
+		    stacking: 'normal',
+		    lineWidth:3
 		}
 		},
-		credits: {
+
+			credits: {
 		text: 'ENSAE Dataviz (Source: <a href="https://data.world/datagraver/eurovision-song-contest-scores"><i>data.world</a>)'
 		},
 		tooltip: {
@@ -633,8 +740,11 @@
 				$.get('langues.csv', function(csv) {     // EDIT to match your CSV data file name
 			      Highcharts.chart('container2', {
 				chart: {
+				  width : 600,
+				  height : 500,
 				  style: {
-            				fontFamily: 'Scope One,serif', 
+            				fontFamily: 'Scope One,serif',
+					fontSize:'15px'
         			  },
 				  backgroundColor: null,
 				  type: 'line',
@@ -650,10 +760,10 @@
 				title: {
 				  text: "Langue chantée par les gagnants de l'Eurovision"
 				},
-				subtitle: {
-				  text: 'Download <a href="langues.csv"> source data</a>', // EDIT link and text
-				  useHTML: true
-				},
+				//subtitle: {
+				  //text: 'Download <a href="langues.csv"> source data</a>', // EDIT link and text
+				  //useHTML: true
+				//},
 				credits: {
 				  enabled: true,
 				  text: 'ENSAE Dataviz (Source: Wikipedia)'
@@ -694,7 +804,7 @@
 				plotOptions: {
 				    line: {
 					marker: {
-					    radius: 1,
+					    radius: 2,
 					    states: {
 						hover: {
 						  enabled: true,
@@ -777,6 +887,8 @@
 <script>
 Highcharts.chart('losers', {
     chart: {
+	width : 600,
+	height : 650,
         type: 'spline',
         inverted: true,
 	backgroundColor: null
@@ -800,7 +912,7 @@ Highcharts.chart('losers', {
         labels: {
          step: 1,
 		    style: {
-			    fontSize:'8px'
+			    fontSize:'12px'
 		}}
     },
     yAxis: {
@@ -848,3 +960,4 @@ Highcharts.chart('losers', {
 			<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
 	</body>
 </html>
+
